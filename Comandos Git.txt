@@ -1,0 +1,33 @@
+Comandos Git
+
+git status "mostra o status"
+git add "os arquivos ficam na staged area"
+git commit -m " envia os arquivos e salva um log( uma mensagem"
+
+git commit -a -m " pula a etapa do staged area"
+git diff "consigo ver o que foi alterado"
+git log " mostra logs de alterações"
+
+gitk "abre uma interface do git com todos os commits"
+
+git checkout -- <nomeArquivo> "descarta as alterações"
+
+git rm <nomeArquivo> " serve para excluir os arquivos que não estão mais no diretorio de trabalho"
+
+git checkout -b <nomeDoBranch> "cria um novo branch e não altera os commits do Branch master"
+
+git branch -d <nomeDoBranch> "exclui o branch"
+
+git branch "lista os branch"
+git log --pretty=oneline "mostra todos os commits"
+
+git tag "lista as tags"
+
+git tag -a <nomeDaTag(ou a chave)> -m <"descrição da tag>" "cria uma tag"
+
+git show <nomeDaTag> "mostra as informações das tags"
+
+
+git remote "lista o servidor remoto"
+
+git push <nomeDoServidor> master(ou o Branch atual) "envia o branch para o servidor"
