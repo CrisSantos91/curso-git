@@ -36,3 +36,7 @@ git clone <chave ssh> "para clonar os arquivos do github para o diretorio local"
 
 git pull <nomeDoServidor> master(ou o Branch atual)
 "copia os arquivos do github para o diretorio local"
+
+fork "pega os projetos que quer colaborar"
+
+pull request "manda suas alterações para o dono do projeto qeu você fez o fork"
