@@ -31,3 +31,5 @@ git show <nomeDaTag> "mostra as informações das tags"
 git remote "lista o servidor remoto"
 
 git push <nomeDoServidor> master(ou o Branch atual) "envia o branch para o servidor"
+
+git clone <chave ssh> "para clonar os arquivos do github para o diretorio local"
