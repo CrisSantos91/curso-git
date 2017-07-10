@@ -33,3 +33,6 @@ git remote "lista o servidor remoto"
 git push <nomeDoServidor> master(ou o Branch atual) "envia o branch para o servidor"
 
 git clone <chave ssh> "para clonar os arquivos do github para o diretorio local"
+
+git pull <nomeDoServidor> master(ou o Branch atual)
+"copia os arquivos do github para o diretorio local"
