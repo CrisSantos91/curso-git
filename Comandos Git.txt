@@ -1,4 +1,4 @@
-Comandos Git
+﻿Comandos Git
 
 git status "mostra o status"
 git add "os arquivos ficam na staged area"
@@ -40,3 +40,8 @@ git pull <nomeDoServidor> master(ou o Branch atual)
 fork "pega os projetos que quer colaborar"
 
 pull request "manda suas alterações para o dono do projeto qeu você fez o fork"
+
+
+git remote add origin git@github.com:login/repositorio.git onde login/repositorio é o respositorio criado no GitHub + o seu login.
+
+git push -u origin master
